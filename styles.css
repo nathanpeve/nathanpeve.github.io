@@ -1,0 +1,77 @@
+/* Navbar Superior */
+    /* Color base */
+    .navbar-principal{
+        background-color: rgb(43, 93, 151); 
+        transition: background-color 0.2s ease; /* Transición */
+        color: #000000;
+        font-weight:600;
+        text-align: center;
+        
+    }
+
+    /* Hover */
+    .navbar-principal:hover{
+        background-color: rgb(24, 52, 85); /* Azul mas claro */
+        transition: color 0.2s ease; 
+        color: #ffffff;
+    }
+
+/* Footer */
+    /* Color base */
+    footer {
+        background-color: rgb(43, 93, 151); 
+        transition: background-color 0.2s ease; 
+        color: #000000;
+        text-align: center;
+        padding: 15px; /* Para que no quede tan pegado al texto */
+    }
+    /* Hover */
+    footer:hover {
+        background-color: rgb(24, 52, 85);
+        transition: color 0.2s ease; 
+        color: #ffffff;
+    }
+
+
+/* Otros */
+header {
+    background-color:#a6c8dd;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+body {
+    background-color:  #d9eff3;
+}
+
+h2 {
+        background-color: rgb(43, 93, 151) ;
+        color: #ffffff ;
+        padding: 10px 20px ;      /* Espacio interno para que no quede pegado al borde */
+        border-radius: 4px ;     /* bordes redondeados */  
+}
+
+h2.alt {
+        background-color: rgb(252, 255, 166) ;
+        color: #000000 ;
+        border-radius: 4px ;   
+}
+
+.btn-custom {
+    background-color: rgb(43, 93, 151);
+    padding: 7px 13px;
+    color: white !important;
+    border: none;
+    transition: all 0.2s ease;
+}
+    /* Efecto Hover para el botón */
+    .btn-custom:hover,.btn-custom:active, .btn-custom:focus {
+        background-color: rgb(24, 52, 85) !important; 
+    }
+
+img {
+    display: block;
+    width: 266px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    }
