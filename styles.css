@@ -1,12 +1,17 @@
 /* Navbar Superior */
     /* Color base */
     .navbar-principal{
+        
         background-color: rgb(43, 93, 151); 
         transition: background-color 0.2s ease; /* Transición */
         color: #000000;
         font-weight:600;
+        text-align: center;  
+    }
+
+    p.lead {
         text-align: center;
-        
+        padding: 0px;
     }
 
     /* Hover */
@@ -47,12 +52,21 @@ body {
 h2 {
         background-color: rgb(43, 93, 151) ;
         color: #ffffff ;
-        padding: 10px 20px ;      /* Espacio interno para que no quede pegado al borde */
+        padding: 10px 10px ;
         border-radius: 4px ;     /* bordes redondeados */  
 }
 
-h2.alt {
+h2.alt, h4.alt {
+        text-align: center;
         background-color: rgb(252, 255, 166) ;
+        padding: 10px 10px ;
+        color: #000000 ;
+        border-radius: 4px ;   
+}
+
+h2.alt2 {
+        background-color: rgb(252, 255, 166) ;
+        padding: 10px 10px ;
         color: #000000 ;
         border-radius: 4px ;   
 }
@@ -109,4 +123,9 @@ img {
     .card:hover {
         transform: scale(1.02); /* Crece un poquito */
         box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    p {
+        text-align: justify;
+        padding: 5px 10px 5px 0px;
     }
