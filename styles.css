@@ -75,3 +75,38 @@ img {
     padding: 0px 20px;
     margin: 0 auto;
     }
+
+
+/* Animaciones Keyframes*/
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+/* Animaciones */
+    header, section, footer {
+        animation: fadeInUp 0.8s ease-out forwards;
+    }
+
+    /* Retrasos escalonados */
+    header { animation-delay: 0.1s; }
+    section:nth-of-type(1) { animation-delay: 0.3s; }
+    section:nth-of-type(2) { animation-delay: 0.5s; }
+    section:nth-of-type(3) { animation-delay: 0.7s; }
+    footer { animation-delay: 0.9s; }
+
+    /* Hover tarjetas */
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.02); /* Crece un poquito */
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
