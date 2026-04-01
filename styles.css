@@ -27,7 +27,6 @@
         background-color: rgb(43, 93, 151); 
         transition: background-color 0.2s ease; 
         color: #000000;
-        text-align: center;
         padding: 15px; /* Para que no quede tan pegado al texto */
     }
     /* Hover */
