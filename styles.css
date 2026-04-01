@@ -49,6 +49,15 @@ body {
     background-color:  #d9eff3;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+    }
+
+.container-img{
+    padding: 0px 20px;
+}
+
 h2 {
         background-color: rgb(43, 93, 151) ;
         color: #ffffff ;
@@ -81,13 +90,6 @@ h2.alt2 {
     /* Efecto Hover para el botón */
     .btn-custom:hover,.btn-custom:active, .btn-custom:focus {
         background-color: rgb(24, 52, 85) !important; 
-    }
-
-img {
-    display: block;
-    width: 266px;
-    padding: 0px 20px;
-    margin: 0 auto;
     }
 
 
